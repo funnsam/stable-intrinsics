@@ -1,4 +1,5 @@
 #![cfg_attr(nightly, feature(core_intrinsics))]
+#![cfg_attr(not(feature = "std"), no_std)]
 #![allow(internal_features)]
 
 #![doc = include_str!("../README.md")]

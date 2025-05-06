@@ -2,6 +2,13 @@
 name = "stable-intrinsics"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85"
+description = "Intrinsics for stable"
+documentation = "https://docs.rs/stable-intrinsics"
+homepage = "https://github.com/funnsam/stable-intrinsics"
+repository = "https://github.com/funnsam/stable-intrinsics"
+license = "BSD-3-Clause"
+keywords = ["intrinsics", "stable"]
 
 [build-dependencies]
 rustversion = "1.0.20"
